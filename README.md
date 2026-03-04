@@ -1,6 +1,6 @@
 # 📊 OBI Banking System 
 
-OBI Banking System v5.1 is a modern and secure online banking platform designed to provide users with an intuitive interface, real-time notifications, and enhanced account management features. The project focuses on clean UI, strong security, responsive design, and comprehensive functionality.
+OBI Banking System is a modern and secure online banking platform designed to provide users with an intuitive interface, real-time notifications, and enhanced account management features. The project focuses on clean UI, strong security, responsive design, and comprehensive functionality.
 
 ---
 
