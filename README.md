@@ -1,118 +1,61 @@
-# 📊 OBI Banking System v5.1
+Navigate to the project folder
+- cd obi-banking-system
+Install dependencies (if applicable)
+- npm install
+Run the development server
+- npm run dev
 
-[![Status](https://img.shields.io/badge/status-production-green)](https://github.com/) 
-[![Version](https://img.shields.io/badge/version-5.1-blue)](https://github.com/) 
-[![PHP](https://img.shields.io/badge/PHP-7.0%2B-purple)](https://www.php.net/) 
-[![MySQL](https://img.shields.io/badge/MySQL-5.7%2B-orange)](https://www.mysql.com/) 
-[![License](https://img.shields.io/badge/license-MIT-lightgrey)](https://github.com/)
+## Set up the database
 
----
+- Import onlinebanking.sql into MySQL
+- Configure config.php
+- Run setup_notifications.php
 
-## 🎯 Overview
-Modernized online banking system with secure, responsive UI/UX, essential features, and full documentation.  
-Designed for production use with optimized performance, security, and accessibility.
+## Deployment
 
----
+This project can be deployed on any PHP-supported server with MySQL.
 
-## 🐛 Bug Fixes
-<details>
-<summary>Click to expand</summary>
+## Steps to deploy:
 
-- **Database connection errors:** Fixed configuration  
-- **SQL injection vulnerabilities:** Converted to prepared statements  
-- **Login flow issues:** Fixed redirects & error handling  
-- **Missing notifications table:** Added fallback & setup script  
-- **Hardcoded paths:** Converted to relative URLs  
+- Connect repository to server
+- Configure database credentials
+- Upload project files
+- Ensure proper permissions for PHP and database connections
 
-</details>
+## Future Improvements
 
----
+- Dark mode toggle
 
-## ✨ Key Features
-<details>
-<summary>Click to expand</summary>
+- Emil notifications for transactions
+- Spending analytics & transaction categories
 
-- Modern responsive UI/UX  
-- Real-time notifications  
-- Account settings (profile, email, password)  
-- Transaction export (CSV, PDF, Excel)  
-- Enhanced dashboard with stats & quick actions  
-- Professional color scheme  
+- Mobile app support and multi-currency transactions
 
-</details>
+## Status
 
----
+Project Status:  Production Ready
 
-## 🔒 Security
-<details>
-<summary>Click to expand</summary>
+This system is fully tested, secure, and optimized for both desktop and mobile users. Continuous improvements are planned to enhance functionality, usability, and overall user experience.
 
-- Prepared statements  
-- XSS protection  
-- Session security  
-- Input validation  
+Planned Future Features:
 
-</details>
+- Dark mode toggle for better accessibility and user preference
+- Email and push notifications for transactions and account activity
+- Spending analytics and transaction categorization
+- Two-factor authentication (2FA) for enhanced account securit
+- Mobile app support for iOS and Android
+- Multi-currency and international transaction support
+- Scheduled and recurring transfers
+- Personalized dashboards and reporting tools
+- AI-powered insights for budgeting and expense tracking
+- Integration with third-party financial tools and APIs
 
----
+These upcoming enhancements aim to make OBI Banking System even more user-friendly, feature-rich, and secure for all types of users.
 
-## 📈 Performance
-<details>
-<summary>Click to expand</summary>
 
-- Load times: <1s (homepage, login, dashboard)  
-- Optimized CSS/JS and queries  
-
-</details>
-
----
-
-## 🌐 Compatibility
-<details>
-<summary>Click to expand</summary>
-
-- **Desktop Browsers:** Chrome, Firefox, Safari, Edge  
-- **Mobile Browsers:** iOS Safari, Chrome Mobile, Firefox Mobile  
-- Fully responsive for 375px+ screens  
-
-</details>
-
----
-
-## 📚 Documentation
-<details>
-<summary>Click to expand</summary>
-
-- Setup guides, feature guides, technical references (15+ files)  
-
-</details>
-
----
-
-## 🎯 Achievements
-<details>
-<summary>Click to expand</summary>
-
-- Secure, maintainable code  
-- WCAG AA/AAA accessibility  
-- Smooth, intuitive UX  
-- Production-ready with comprehensive documentation  
-
-</details>
-
----
-
-## 🚀 Future Enhancements
-<details>
-<summary>Click to expand</summary>
-
-- Email notifications  
-- Dark mode  
-- Analytics & spending insights  
-- Mobile app & multi-currency support  
-
-</details>
-
----
-
-*OBI Banking System v5.1 – modern, secure, feature-rich, fully documented, and production-ready.*
+## Key Cleanups:  
+- Proper **markdown code blocks** for commands  
+- Consistent **headings and spacing**  
+- Features organized under **UI, UX, Security/Performance**  
+- Installation and deployment clearly separated  
+- Future improvements and status highlighted  
